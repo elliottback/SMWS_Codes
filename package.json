@@ -1,0 +1,53 @@
+{
+  "name": "smws_codes",
+  "version": "1.0.0",
+  "description": "json data file for smws codes",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "mocha",
+    "build": "webpack"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/elliottback/SMWS_Codes.git"
+  },
+  "private": true,
+  "keywords": [
+    "scotch",
+    "whisky",
+    "society",
+    "smws",
+    "data"
+  ],
+  "author": "Elliott C. Bäck",
+  "license": "Unlicense",
+  "bugs": {
+    "url": "https://github.com/elliottback/SMWS_Codes/issues"
+  },
+  "homepage": "https://github.com/elliottback/SMWS_Codes",
+  "devDependencies": {
+    "chai": "^4.3.4",
+    "copy-webpack-plugin": "^9.0.1",
+    "mocha": "^9.1.1",
+    "webpack": "^5.56.1",
+    "webpack-cli": "^4.8.0"
+  },
+  "release": {
+    "branches": [
+      "master"
+    ],
+    "plugins": [
+      "@semantic-release/commit-analyzer",
+      [
+        "@semantic-release/github",
+        {
+          "assets": [
+            "dist/data.json"
+          ]
+        }
+      ]
+    ]
+  }
+}
