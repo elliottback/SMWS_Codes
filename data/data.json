@@ -1097,6 +1097,24 @@
         "name": "M & H Bonneau",
         "type": "Cognac"
     },
+    "C7":{
+        "status":"active",
+        "region": "France",
+        "name": "Guy Rateau PC",
+        "type": "Cognac"
+    },
+    "C8":{
+        "status":"active",
+        "region": "France",
+        "name": "Marie C Bodit GC",
+        "type": "Cognac"
+    },
+    "C9":{
+        "status":"active",
+        "region": "France",
+        "name": "Robert Audebeau PC",
+        "type": "Cognac"
+    },
     "GN1":{
         "status":"active",
         "region": "Scotland",
@@ -1112,13 +1130,19 @@
     "GN3":{
         "status":"active",
         "region": "Scotland",
-        "name": "The Borders Distillery",
+        "name": "Borders Distillery",
         "type": "Gin"
     },
     "GN4":{
         "status":"active",
         "region": "Ireland",
-        "name": "?",
+        "name": "Boatyard Distillery",
+        "type": "Gin"
+    },
+    "GN5":{
+        "status":"active",
+        "region": "Scotland",
+        "name": "Glenrinnes Distillery",
         "type": "Gin"
     },
     "R1":{
@@ -1197,6 +1221,12 @@
         "status":"active",
         "region": "Trinidad",
         "name": "Caroni",
+        "type": "Rum"
+    },
+    "R14":{
+        "status":"active",
+        "region": "Guyana",
+        "name": "Uitvlugt",
         "type": "Rum"
     },
     "RW1":{
