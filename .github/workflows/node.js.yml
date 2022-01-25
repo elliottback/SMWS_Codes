@@ -3,13 +3,10 @@
 
 name: Node.js CI
 
-on:
-  pull_request:
-    branches: [ main ]
+on: [pull_request_target]
 
 jobs:
   build:
-
     runs-on: ubuntu-latest
     strategy:
       matrix:
@@ -32,8 +29,6 @@ jobs:
     if: github.actor == 'dependabot[bot]'
     steps:
       - uses: actions/checkout@v2
-        with:
-          token: ${{ secrets.PAT }}
       - uses: ahmadnassri/action-dependabot-auto-merge@v2.6
         with:
           target: major
