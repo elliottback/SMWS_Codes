@@ -31,7 +31,7 @@
     "chai": "^4.3.6",
     "copy-webpack-plugin": "^10.2.4",
     "mocha": "^10.0.0",
-    "webpack": "^5.72.0",
+    "webpack": "^5.72.1",
     "webpack-cli": "^4.9.2"
   },
   "release": {
