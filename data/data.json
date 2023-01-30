@@ -1085,6 +1085,12 @@
     "name": "Finger Lakes Distilling",
     "type": "Bourbon"
   },
+  "B7": {
+    "status": "active",
+    "region": "Indiana",
+    "name": "MGP (Midwest Grain Products)",
+    "type": "Bourbon"
+  },
   "C1": {
     "status": "active",
     "region": "France",
