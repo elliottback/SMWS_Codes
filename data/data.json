@@ -1049,6 +1049,24 @@
     "name": "Domaine Lasalle",
     "type": "Armagnac"
   },
+  "A7": {
+    "status": "active",
+    "region": "France",
+    "name": "Domaine Lasalle",
+    "type": "Armagnac"
+  },
+  "A8": {
+    "status": "active",
+    "region": "France",
+    "name": "Domaine de Cavaillon",
+    "type": "Armagnac"
+  },
+  "A9": {
+    "status": "active",
+    "region": "France",
+    "name": "Domaine de Saurine",
+    "type": "Armagnac"
+  },
   "B1": {
     "status": "active",
     "region": "Kentucky, USA",
@@ -1145,6 +1163,12 @@
     "name": "Robert Audebeau PC",
     "type": "Cognac"
   },
+  "CW1": {
+    "status": "active",
+    "region": "Kentucky, USA",
+    "name": "Heaven Hill Distillery",
+    "type": "Bourbon"
+  },
   "GN1": {
     "status": "active",
     "region": "Scotland",
@@ -1173,6 +1197,12 @@
     "status": "active",
     "region": "Scotland",
     "name": "Glenrinnes Distillery",
+    "type": "Gin"
+  },
+  "GN6": {
+    "status": "active",
+    "region": "Scotland",
+    "name": "Holyrood Distillery",
     "type": "Gin"
   },
   "R1": {
@@ -1275,6 +1305,18 @@
     "status": "active",
     "region": "New York, USA",
     "name": "New York Distilling Co.",
+    "type": "Rye"
+  },
+  "RW4": {
+    "status": "active",
+    "region": "Kentucky, USA",
+    "name": "?",
+    "type": "Rye"
+  },
+  "RW5": {
+    "status": "active",
+    "region": "Indiana, USA",
+    "name": "Lux Row Distillers / MGP",
     "type": "Rye"
   }
 }
