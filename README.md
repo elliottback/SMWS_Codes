@@ -14,7 +14,7 @@ You can download `data.json` into your build pipeline, with something like this:
 
 ```yaml
       - name: Download artifact smws codes
-        uses: dsaltares/fetch-gh-release-asset@0.06
+        uses: dsaltares/fetch-gh-release-asset
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
           file: "data.json"
