@@ -1,11 +1,11 @@
 // testing libraries:
-var expect = require('chai').expect;
-var assert = require('chai').assert;
-var _ = require('lodash');
-var fs = require('fs');
+const expect = require('chai').expect;
+const assert = require('chai').assert;
+const _ = require('lodash');
+const fs = require('fs');
 
 describe('data.json', function () {
-    var json = undefined;
+    let json = undefined;
 
     before( function() {
         json = fs.readFileSync( './data/data.json', 'utf8');
@@ -13,7 +13,7 @@ describe('data.json', function () {
     } );
 
     it('it should parse', function () {
-        var json = fs.readFileSync( './data/data.json', 'utf8');
+        let json = fs.readFileSync( './data/data.json', 'utf8');
         assert( typeof json === "string" );
         data = JSON.parse(json);
 
@@ -24,9 +24,8 @@ describe('data.json', function () {
     it( 'entries should follow defined format', function() {
         entries = _.values( JSON.parse(json) );
 
-        for( i = 0; i < entries.length; i++ )
+        for( let entry of entries )
         {
-            var entry = entries[ i ];
             expect( entry ).to.have.property( 'status' );
             expect( entry.status.toLowerCase() ).to.be.oneOf([ 'active', 'inactive', 'closed' ]);
             expect( entry ).to.have.property( 'region' );

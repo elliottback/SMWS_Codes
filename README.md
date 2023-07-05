@@ -1,5 +1,6 @@
 [![Node.js CI](https://github.com/elliottback/SMWS_Codes/actions/workflows/node.js.yml/badge.svg)](https://github.com/elliottback/SMWS_Codes/actions/workflows/node.js.yml)
 [![Release](https://github.com/elliottback/SMWS_Codes/actions/workflows/release.yml/badge.svg)](https://github.com/elliottback/SMWS_Codes/actions/workflows/release.yml)
+[![Quality Gate Status](https://sonarcloud.io/api/project_badges/measure?project=elliottback_SMWS_Codes&metric=alert_status)](https://sonarcloud.io/summary/new_code?id=elliottback_SMWS_Codes)
 
 # Single Malt Whisky Society (SMWS) Codes
 A module containing data to decode SMWS (Single Malt Whisky Society) Code Numbers.
