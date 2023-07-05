@@ -15,14 +15,14 @@ describe('data.json', function () {
     it('it should parse', function () {
         let json = fs.readFileSync( './data/data.json', 'utf8');
         assert( typeof json === "string" );
-        data = JSON.parse(json);
+        const data = JSON.parse(json);
 
         assert( typeof data === "object" );
         expect( _.keys( data ) ).to.have.lengthOf.above(120);
     });
 
     it( 'entries should follow defined format', function() {
-        entries = _.values( JSON.parse(json) );
+        const entries = _.values( JSON.parse(json) );
 
         for( let entry of entries )
         {
