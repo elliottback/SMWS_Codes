@@ -923,6 +923,18 @@
     "name": "Mosgaard Whisky",
     "type": "Single Malt"
   },
+  "155": {
+    "status": "active",
+    "region": "Israel",
+    "name": "Milk & Honey Distillery",
+    "type": "Single Malt"
+  },
+  "156": {
+    "status": "active",
+    "region": "Lowland",
+    "name": "Glasgow Distillery",
+    "type": "Single Malt"
+  },
   "G1": {
     "status": "active",
     "region": "Lowland",
