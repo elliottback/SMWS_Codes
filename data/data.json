@@ -935,6 +935,12 @@
     "name": "Glasgow Distillery",
     "type": "Single Malt"
   },
+  "157": {
+    "status": "active",
+    "region": "France",
+    "name": "Warenghem Distillery (Amorik)",
+    "type": "Single Malt"
+  },
   "G1": {
     "status": "active",
     "region": "Lowland",
