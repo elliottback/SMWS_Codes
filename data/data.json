@@ -941,6 +941,12 @@
     "name": "Warenghem Distillery (Amorik)",
     "type": "Single Malt"
   },
+  "158": {
+    "status": "active",
+    "region": "Japan",
+    "name": "Yuza",
+    "type": "Single Malt"
+  },
   "G1": {
     "status": "active",
     "region": "Lowland",
