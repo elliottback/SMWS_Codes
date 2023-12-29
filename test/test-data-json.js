@@ -1,6 +1,5 @@
 // testing libraries:
-const expect = require('chai').expect;
-const assert = require('chai').assert;
+import {expect, assert} from 'chai';
 const _ = require('lodash');
 const fs = require('fs');
 
