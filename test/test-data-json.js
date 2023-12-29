@@ -1,7 +1,8 @@
 // testing libraries:
 import {expect, assert} from 'chai';
-const _ = require('lodash');
-const fs = require('fs');
+import lodash from 'lodash';
+const {_} = lodash;
+import fs from 'fs';
 
 describe('data.json', function () {
     let json = undefined;

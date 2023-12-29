@@ -2,6 +2,7 @@
   "name": "smws_codes",
   "version": "1.0.0",
   "description": "json data file for smws codes",
+  "type": "module",
   "directories": {
     "test": "test"
   },
@@ -28,6 +29,10 @@
   },
   "homepage": "https://github.com/elliottback/SMWS_Codes",
   "devDependencies": {
+    "@babel/cli": "^7.23.4",
+    "@babel/core": "^7.23.6",
+    "@babel/node": "^7.22.19",
+    "@babel/preset-env": "^7.23.6",
     "@babel/register": "^7.22.15",
     "chai": "^5.0.0",
     "copy-webpack-plugin": "^11.0.0",
