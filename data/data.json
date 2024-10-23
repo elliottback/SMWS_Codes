@@ -1348,5 +1348,11 @@
     "region": "Indiana, USA",
     "name": "Lux Row Distillers / MGP",
     "type": "Rye"
+  },
+  "RW6": {
+    "status": "active",
+    "region": "Finland",
+    "name": "Kyrö Distillery Company",
+    "type": "Rye"
   }
 }
