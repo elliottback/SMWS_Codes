@@ -953,6 +953,24 @@
     "name": "Mars Komagatake Distillery",
     "type": "Single Malt"
   },
+  "160": {
+    "status": "active",
+    "region": "Japan",
+    "name": "Mars Tsunuki Distillery",
+    "type": "Single Malt"
+  },
+  "161": {
+    "status": "active",
+    "region": "Scotland",
+    "name": "Nc'nean Distillery",
+    "type": "Single Malt"
+  },
+  "163": {
+    "status": "active",
+    "region": "Scotland",
+    "name": "Isle of Harris Distillery",
+    "type": "Single Malt"
+  },
   "G1": {
     "status": "active",
     "region": "Lowland",
@@ -1041,6 +1059,12 @@
     "status": "active",
     "region": "Highland",
     "name": "Loch Lomond (Rhosdhu)",
+    "type": "Grain"
+  },
+  "G16": {
+    "status": "active",
+    "region": "Lowland",
+    "name": "Glasgow Distillery",
     "type": "Grain"
   },
   "A1": {
@@ -1137,6 +1161,12 @@
     "status": "active",
     "region": "Indiana",
     "name": "MGP (Midwest Grain Products)",
+    "type": "Bourbon"
+  },
+  "B8": {
+    "status": "active",
+    "region": "Washington",
+    "name": "Woodinville Whiskey Co.",
     "type": "Bourbon"
   },
   "C1": {
