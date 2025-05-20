@@ -34,7 +34,7 @@
     "@babel/node": "^7.27.1",
     "chai": "^5.2.0",
     "copy-webpack-plugin": "^13.0.0",
-    "mocha": "^11.3.0",
+    "mocha": "^11.4.0",
     "webpack": "^5.99.8",
     "webpack-cli": "^6.0.1"
   },
