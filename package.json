@@ -30,7 +30,7 @@
   "homepage": "https://github.com/elliottback/SMWS_Codes",
   "devDependencies": {
     "@babel/cli": "^7.28.3",
-    "@babel/core": "^7.28.4",
+    "@babel/core": "^7.28.5",
     "@babel/node": "^7.28.0",
     "chai": "^6.2.0",
     "copy-webpack-plugin": "^13.0.1",
