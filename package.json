@@ -56,6 +56,6 @@
   },
   "dependencies": {
     "fs": "0.0.1-security",
-    "lodash": "^4.17.21"
+    "lodash": "^4.17.23"
   }
 }
