@@ -1,4 +1,3 @@
-// testing libraries:
 import {expect, assert} from 'chai';
 import lodash from 'lodash';
 const {_} = lodash;
