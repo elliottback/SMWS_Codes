@@ -1,10 +1,15 @@
 name: GitHub Actions Security Analysis with zizmor 🌈
 
+permissions: {}
+
 on:
   push:
     branches: [ "main", "master"]
   pull_request:
     branches: ["**"]
+
+env:
+  FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true
 
 jobs:
   zizmor:
@@ -17,20 +22,20 @@ jobs:
       actions: read
     steps:
       - name: Checkout repository
-        uses: actions/checkout@v7
+        uses: actions/checkout@v7.0.1
         with:
           persist-credentials: false
 
       - name: Install the latest version of uv
-        uses: astral-sh/setup-uv@v7
+        uses: astral-sh/setup-uv@v7.6.0
 
       - name: Run zizmor 🌈 for output
-        run: uvx zizmor --format plain --no-exit-codes .
+        run: uvx --no-build zizmor==1.32.0 --format plain --no-exit-codes .
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
       - name: Run zizmor 🌈
-        run: uvx zizmor --format sarif . > results.sarif
+        run: uvx --no-build zizmor==1.32.0 --format sarif . > results.sarif
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
@@ -39,3 +44,16 @@ jobs:
         with:
           sarif_file: results.sarif
           category: zizmor
+
+  lockfile:
+    runs-on: ubuntu-slim
+    permissions:
+      contents: read
+    env:
+      GH_TOKEN: ${{ github.token }}
+    steps:
+      - uses: actions/checkout@v7.0.1
+        with:
+          persist-credentials: false
+      - run: gh extension install github/gh-actions-lock --pin v0.4.1
+      - run: gh actions-lock --verify
