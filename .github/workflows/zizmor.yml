@@ -30,12 +30,12 @@ jobs:
         uses: astral-sh/setup-uv@v10.4.0
 
       - name: Run zizmor 🌈 for output
-        run: uvx --no-build zizmor==1.32.0 --format plain --no-exit-codes .
+        run: uvx --no-build zizmor==1.33.1 --format plain --no-exit-codes .
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
       - name: Run zizmor 🌈
-        run: uvx --no-build zizmor==1.32.0 --format sarif . > results.sarif
+        run: uvx --no-build zizmor==1.33.1 --format sarif . > results.sarif
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
